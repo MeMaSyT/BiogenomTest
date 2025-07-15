@@ -61,7 +61,7 @@ namespace BiogenomTest.DataAccess.Repositories
             ReportEntity entity = new ReportEntity
             {
                 Id = Guid.NewGuid(),
-                ReportDate = report.ReportDate,
+                ReportDate = DateTime.UtcNow,
 
                 Current_VitaminC = report.Current_VitaminC,
                 Current_VitaminD = report.Current_VitaminD,
