@@ -26,8 +26,9 @@
 * Вернет созданный отчет
 * Принимает ReportDTO в теле запроса
 
-<h3>ReportDTO<h3/>
-`
+<h3>ReportDTO</h3>
+
+```c#
 public record ReportDto
 (
 Guid? Id,
@@ -46,4 +47,6 @@ float New_Cink,
 float New_Iodine,
 float New_VitaminB6,
 float New_VitaminС
-);`
+);
+```
+
